@@ -132,7 +132,7 @@ const createAndPushToGithub = async(dir: string, githubToken: string, owner: str
   }
 
     function App() {
-      createAndPushToGithub(`${dir}path-to-repo`, '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', 'sangeetparashar', 'test-isomorphic-git-02-09');
+      createAndPushToGithub(`${dir}path-to-repo`, '<insert github PSA>', 'sangeetparashar', 'test-isomorphic-git-02-09');
       return (
         <div className="App">
           <header className="App-header">
